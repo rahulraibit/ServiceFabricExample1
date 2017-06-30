@@ -1,2 +1,0 @@
-C:\Users\H188752\documents\visual studio 2015\Projects\FirstServiceFabricWebAPI\FirstServiceFabricWebAPI\obj\x64\Debug\FirstServiceFabricWebAPI.sfprojResolveAssemblyReference.cache
-C:\Projects\Experiments\FirstServiceFabricWebAPI\FirstServiceFabricWebAPI\obj\x64\Debug\FirstServiceFabricWebAPI.sfprojResolveAssemblyReference.cache
