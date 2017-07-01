@@ -30,6 +30,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Ship\Ship.csproj" />
     <ProjectReference Include="..\ShipStatelessAPI\ShipStatelessAPI.csproj" />
     <ProjectReference Include="..\StatefulTracker\StatefulTracker.csproj" />
   </ItemGroup>

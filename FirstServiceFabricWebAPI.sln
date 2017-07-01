@@ -4,12 +4,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "FirstServiceFabricWebAPI", "FirstServiceFabricWebAPI\FirstServiceFabricWebAPI.sfproj", "{59C6BA47-6B1C-4EC3-AC2C-DD002E0A4FA8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{64E8E843-2C09-4AB0-801F-E480DDF2E8FD} = {64E8E843-2C09-4AB0-801F-E480DDF2E8FD}
+		{1E7C3B97-3F51-4036-868D-5E6120772D50} = {1E7C3B97-3F51-4036-868D-5E6120772D50}
+		{4F5319E4-6CF8-4F79-9718-44E53DFC042E} = {4F5319E4-6CF8-4F79-9718-44E53DFC042E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipStatelessAPI", "ShipStatelessAPI\ShipStatelessAPI.csproj", "{7B375120-7C52-42A8-8CDF-4CCEFB018438}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatefulTracker", "StatefulTracker\StatefulTracker.csproj", "{FBB03262-3AD3-4259-A3EB-00122E8CCEE1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatefulTrackerInterface", "StatefulTrackerInterface\StatefulTrackerInterface.csproj", "{1E7C3B97-3F51-4036-868D-5E6120772D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ship", "Ship\Ship.csproj", "{64E8E843-2C09-4AB0-801F-E480DDF2E8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ship.Interfaces", "Ship.Interfaces\Ship.Interfaces.csproj", "{4F5319E4-6CF8-4F79-9718-44E53DFC042E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +56,18 @@ Global
 		{1E7C3B97-3F51-4036-868D-5E6120772D50}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E7C3B97-3F51-4036-868D-5E6120772D50}.Release|x64.ActiveCfg = Release|Any CPU
 		{1E7C3B97-3F51-4036-868D-5E6120772D50}.Release|x64.Build.0 = Release|Any CPU
+		{64E8E843-2C09-4AB0-801F-E480DDF2E8FD}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{64E8E843-2C09-4AB0-801F-E480DDF2E8FD}.Debug|x64.ActiveCfg = Debug|x64
+		{64E8E843-2C09-4AB0-801F-E480DDF2E8FD}.Debug|x64.Build.0 = Debug|x64
+		{64E8E843-2C09-4AB0-801F-E480DDF2E8FD}.Release|Any CPU.ActiveCfg = Release|x64
+		{64E8E843-2C09-4AB0-801F-E480DDF2E8FD}.Release|x64.ActiveCfg = Release|x64
+		{64E8E843-2C09-4AB0-801F-E480DDF2E8FD}.Release|x64.Build.0 = Release|x64
+		{4F5319E4-6CF8-4F79-9718-44E53DFC042E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{4F5319E4-6CF8-4F79-9718-44E53DFC042E}.Debug|x64.ActiveCfg = Debug|x64
+		{4F5319E4-6CF8-4F79-9718-44E53DFC042E}.Debug|x64.Build.0 = Debug|x64
+		{4F5319E4-6CF8-4F79-9718-44E53DFC042E}.Release|Any CPU.ActiveCfg = Release|x64
+		{4F5319E4-6CF8-4F79-9718-44E53DFC042E}.Release|x64.ActiveCfg = Release|x64
+		{4F5319E4-6CF8-4F79-9718-44E53DFC042E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

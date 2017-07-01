@@ -15,7 +15,7 @@ namespace StatefulTrackerInterface
         }
         public static ILocationViewer CreateLocationViewer()
         {
-            var partition = new ServicePartitionKey(1);
+            var partition = new ServicePartitionKey(2);
             return ServiceProxy.Create<ILocationViewer>(LocationReporterServiceUrl, partition);
         }
     }
