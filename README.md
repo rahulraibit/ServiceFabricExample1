@@ -1,7 +1,4 @@
 
-
-Credit https://blog.geist.no/azure-service-fabric-introduction-getting-it-running/
-
 Let me start by introducing the application we will be working on. We will be using Azure Service Fabric to write a cloud based application for an imaginary startup called Sheepishly.
 
 Sheepishly
@@ -47,3 +44,6 @@ The application will have three main components.
 A stateless API that will allow interaction with the application
 A stateful service for tracking overall sheep statistics
 An individual stateful actor for every sheep for detailed tracking 
+
+Credit goes to  -  https://blog.geist.no/azure-service-fabric-introduction-getting-it-running/ 
+And I have also updated the code as per new standard.
