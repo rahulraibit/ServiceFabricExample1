@@ -1,5 +1,6 @@
-# ServiceFabricExample1
-Implemented StateLess Service, Reliable service and actors in this application. Created Small web API project.
+
+
+Credit https://blog.geist.no/azure-service-fabric-introduction-getting-it-running/
 
 Let me start by introducing the application we will be working on. We will be using Azure Service Fabric to write a cloud based application for an imaginary startup called Sheepishly.
 
